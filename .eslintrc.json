@@ -7,6 +7,7 @@
     "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:import/typescript",
     "prettier"
   ],
   "rules": {
@@ -35,7 +36,7 @@
       "version": "detect"
     },
     "import/parser": {
-      "@typescript-eslint/parser": ["ts", "tsx"]
+      "@typescript-eslint/parser": [".ts", ".tsx"]
     },
     "@import/resolver": {
       "typescript": {

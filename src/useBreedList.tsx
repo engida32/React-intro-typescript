@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+// eslint-disable-next-line import/no-unresolved
 import { Animal, BreedListAPIResponse } from "./APIResponsetypes";
 
 const localCache: {
