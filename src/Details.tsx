@@ -12,7 +12,7 @@ class Details extends Component<RouteComponentProps<{ id: string }>> {
     loading: true,
     showModal: false,
     animal: "" as Animal,
-    breed: "",
+    breed: "",  
     city: "",
     state: "",
     description: "",
